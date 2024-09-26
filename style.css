@@ -320,3 +320,21 @@ h4 {
             }
         
         }
+  @media screen and (max-width: 600px)
+        {
+         section {
+  width: 200px;
+  border: 1px solid #2d2d2d;
+ display: grid;
+  justify-content: center;
+}
+
+div {
+  color: #fff;
+  background: #2d2d2d;
+  padding: 12px;
+  display: inline-block;
+}
+        
+        }
+

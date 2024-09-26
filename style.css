@@ -263,7 +263,7 @@ h4 {
     width: 100%;
   }
   
-@media screen and (max-width: 600px)
+/* @media screen and (max-width: 600px)
 {
     h3{
         img{
@@ -272,7 +272,7 @@ h4 {
             margin-bottom: .1px;
             margin-top: 900px;
         }
-    }
+    } */
 
 }
 @media screen and (max-width: 600px)

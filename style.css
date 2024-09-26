@@ -327,6 +327,7 @@ h4 {
   border: 1px solid #2d2d2d;
  display: grid;
   justify-content: center;
+               align-content: center;
 }
 
 div {

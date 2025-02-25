@@ -58,3 +58,113 @@ body {
         padding: 0;
     }
 }
+/* Existing CSS remains unchanged */
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .hero {
+        width: 90%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    ul {
+        text-align: center;
+        padding: 0;
+    }
+    
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .banner {
+        flex-direction: column;
+    }
+    
+    .left-colunm, .right-colunm {
+        flex-basis: 100%;
+    }
+    
+    .cake_main {
+        position: static;
+        transform: none;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .cake_main img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    p {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .navbar ul {
+        padding: 0;
+    }
+    
+    .navbar ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .cake_main {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .cake_main h1 {
+        font-size: 24px;
+    }
+    
+    .btn button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    p {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        width: 95%;
+    }
+    
+    .navbar ul li {
+        font-size: 16px;
+    }
+    
+    .cake_main h1 {
+        font-size: 20px;
+    }
+    
+    .btn button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    p {
+        font-size: 95%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    p {
+        font-size: 105%;
+    }
+}

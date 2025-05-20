@@ -144,7 +144,8 @@ p {
 
 .cake_main img {
 
-    width: 400px;
+    width: 400px; 
+    height: 200px;
     padding-left: 0px;
     padding-right: 0px;
     float: none

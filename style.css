@@ -144,6 +144,7 @@ p {
 
 .cake_main img {
 
+    aspect-ratio: 3/2;
     width: 400px; 
     height: 200px;
     padding-left: 0px;
